@@ -1,6 +1,6 @@
-Feature: First Rest Assured test22
+Feature: Testing of get method
 
-  Scenario Outline: Test my Get Method22
+  Scenario Outline: Test my Get Method with Parameters
     #Given  user start the rest asured test
     When user hit the get request
     Then user checks the count or size
