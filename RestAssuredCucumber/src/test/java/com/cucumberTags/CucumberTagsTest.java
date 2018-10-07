@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		
 		features= {"src/test/resources/trimble/testing/DataDriven.feature"},
-		glue= {"com/dataDriven","com/getExample"},
+		glue= {"com/dataDriven"},
 
 		
 		//dryRun=true,

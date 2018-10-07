@@ -9,7 +9,12 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		
 		features= {"src/test/resources/trimble/testing/PostRequest.feature"},
-		glue= {"com/restAssured/PostRequest/"}
+		glue= {"com/post"},
+		plugin={"pretty",
+				"html:target/cucumber-htmlreport",
+				"json:target/cucumber-report6.json",
+				"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport1.html"}
+		
 		
 		)
 public class PostRequestRunnerTest {
