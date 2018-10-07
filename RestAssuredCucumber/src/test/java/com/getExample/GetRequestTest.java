@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 				"json:target/cucumber-report4.json",
 				"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport1.html"}
 		)
-public class RunFirstCucumberScriptTest {
+public class GetRequestTest {
 	
 	
 
