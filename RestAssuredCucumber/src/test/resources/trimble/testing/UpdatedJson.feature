@@ -1,4 +1,4 @@
-Feature: First Rest Assured test POST 
+Feature: Verifying updated JSON request with post
 
 
 Scenario: Test my POST request test 
