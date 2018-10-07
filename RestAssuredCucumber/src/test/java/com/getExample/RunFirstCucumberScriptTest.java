@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report6.json",
+				"json:target/cucumber-report4.json",
 				"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport1.html"}
 		)
 public class RunFirstCucumberScriptTest {
